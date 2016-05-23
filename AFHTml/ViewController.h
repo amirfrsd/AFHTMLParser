@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AFHTMLTagParser.h"
+@class AFHTMLTagParser;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    AFHTMLTagParser *tagParse;
+}
 
 
 @end

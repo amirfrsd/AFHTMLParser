@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    tagParse = [[AFHTMLTagParser alloc] init];
+    NSString *stringToFetch = @"<h2>";
+    NSString *stringToFetchTwo = @"</h2>";
+    NSString *URLOfString = @"http://amirfarsad.me";
+    NSString *responseString = [tagParse parseTheStringBetween:stringToFetch and:stringToFetchTwo inURL:URLOfString];
+    NSLog(responseString);
 }
 
 - (void)didReceiveMemoryWarning {

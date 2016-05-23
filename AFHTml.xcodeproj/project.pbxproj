@@ -15,6 +15,7 @@
 		CDABD44A1CF2C70300D0AD47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDABD4481CF2C70300D0AD47 /* LaunchScreen.storyboard */; };
 		CDABD4551CF2C70300D0AD47 /* AFHTmlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDABD4541CF2C70300D0AD47 /* AFHTmlTests.m */; };
 		CDABD4601CF2C70300D0AD47 /* AFHTmlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDABD45F1CF2C70300D0AD47 /* AFHTmlUITests.m */; };
+		CDABD46F1CF2C70900D0AD47 /* AFHTMLTagParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDABD46E1CF2C70900D0AD47 /* AFHTMLTagParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CDABD45B1CF2C70300D0AD47 /* AFHTmlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFHTmlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDABD45F1CF2C70300D0AD47 /* AFHTmlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTmlUITests.m; sourceTree = "<group>"; };
 		CDABD4611CF2C70300D0AD47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDABD46D1CF2C70900D0AD47 /* AFHTMLTagParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTMLTagParser.h; sourceTree = "<group>"; };
+		CDABD46E1CF2C70900D0AD47 /* AFHTMLTagParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTMLTagParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		CDABD4391CF2C70300D0AD47 /* AFHTml */ = {
 			isa = PBXGroup;
 			children = (
+				CDABD46D1CF2C70900D0AD47 /* AFHTMLTagParser.h */,
+				CDABD46E1CF2C70900D0AD47 /* AFHTMLTagParser.m */,
 				CDABD43D1CF2C70300D0AD47 /* AppDelegate.h */,
 				CDABD43E1CF2C70300D0AD47 /* AppDelegate.m */,
 				CDABD4401CF2C70300D0AD47 /* ViewController.h */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDABD4421CF2C70300D0AD47 /* ViewController.m in Sources */,
+				CDABD46F1CF2C70900D0AD47 /* AFHTMLTagParser.m in Sources */,
 				CDABD43F1CF2C70300D0AD47 /* AppDelegate.m in Sources */,
 				CDABD43C1CF2C70300D0AD47 /* main.m in Sources */,
 			);
