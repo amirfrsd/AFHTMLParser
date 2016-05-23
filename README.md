@@ -2,12 +2,12 @@
 A Tool to parse String between to HTML tags
 
 # Your Header File
-  '''#import "AFHTMLTagParser.h"</br>
+  ```#import "AFHTMLTagParser.h"</br>
   @class AFHTMLTagParser;
-  AFHTMLTagParser *tagParse;'''
+  AFHTMLTagParser *tagParse;```
 
 # Your Main File
-  '''tagParse = [[AFHTMLTagParser alloc] init];
-  NSString *responseString = [tagParse parseTheStringBetween:stringToFetch and:stringToFetchTwo inURL:URLOfString];'''
+  ```tagParse = [[AFHTMLTagParser alloc] init];
+  NSString *responseString = [tagParse parseTheStringBetween:stringToFetch and:stringToFetchTwo inURL:URLOfString];```
 
 # Demo file included :)
